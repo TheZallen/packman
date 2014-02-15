@@ -1,5 +1,14 @@
 /****************************** MAIN STYLES - backgorund,deviders ******************************/
 
+/* custom stuff */
+h1 {
+	text-align: center;
+	font-size: 36px;
+	padding-bottom: 20px;
+	margin-top: -20px;
+	line-height: 1em;
+}
+
 /* Main Container */
 img, embed, object, video {
 	max-width: 100%
@@ -156,7 +165,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	text-decoration:none;
 	text-transform:uppercase;
 	font-weight:600;
-	color: #414558;
+	color: #FFF;
 }
 li a#visited {
 	background: rgba(215, 234, 238, 0.3);
@@ -293,10 +302,9 @@ html[xmlns] .slides {
 /* IE rgba() hack */
 .flex-caption {
 	zoom: 1;
-	width: 20%;
 	padding: 2%;
 	margin: 0;
-	position: absolute;
+	
 	left: 0;
 	bottom: 0;
 	background:#bfd6e4;
@@ -458,7 +466,7 @@ a.simple {
 }
 /****************************** HOME - Content Part - Footer ******************************/
 #footer {
-	background:#626879;
+	background:#520063;
 	padding:20px 0px;
 	border-top:5px solid #bfd6e4;
 }
@@ -519,7 +527,7 @@ a.simple {
 }
 /****************************** HOME - Content Part - Copyright ******************************/
 #copyright {
-	background:#727888;
+	background:#311C42;
 	border-top:1px solid #414550;
 	border-bottom:5px solid #5c616f;
 }
@@ -1187,7 +1195,10 @@ span.color {
 .one_sixth {
 	width: 15%;
 }
-.one_half, .one_third, .two_third, .one_fourth, .one_fifth {
+.three_fourth {
+	width: 74%;
+}
+.one_half, .one_third, .two_third, .one_fourth, .one_fifth, .three_fourth {
 	margin-right: 4%;
 	margin-bottom: 10px;
 	float: left;
