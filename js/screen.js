@@ -49,9 +49,7 @@
 
 // Twitter
 			$(document).ready(function(){
-			$(function(){
-				  $('#tweets').tweetable({username: 'anariel77', time: true, limit: 1, replies: true, position: 'append'});
-			  });
+		
 			   });
 				
 // Activate the contactform

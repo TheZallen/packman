@@ -9,6 +9,36 @@ h1 {
 	line-height: 1em;
 }
 
+.cv {
+	box-shadow: 0px 0px 30px 2px #000;
+	padding: 30px;
+}
+body {
+	color: #000;
+}
+/* isotop */
+
+.item {
+	width: 146px;
+	text-align: center;
+	height: auto;
+	background-color: rgb(200,200,200);
+	padding: 5px 5px 0 5px;
+	margin: 2px;
+	-webkit-transition: opacity .6s linear;
+	transition: opacity .6s linear;
+	opacity: 1;
+}
+.item img{
+	height: 181px;
+}
+.item:hover {
+	-webkit-transition: opacity .6s linear;
+	transition: opacity .6s linear;
+	opacity: .7;
+}
+
+
 /* Main Container */
 img, embed, object, video {
 	max-width: 100%
@@ -312,6 +342,9 @@ html[xmlns] .slides {
 	font-size: 12px;
 	line-height: 15px;
 }
+.flex-captionhome {
+	top:50%;
+}
 /* Direction Nav */
 .flex-direction-nav {
 	height: 0;
@@ -323,7 +356,7 @@ html[xmlns] .slides {
 	display: block;
 	background:  url(../images/flexslider/bg_direction_nav.png) no-repeat;
 	position: absolute;
-	top: 50%;
+	top: 5%;
 	cursor: pointer;
 	text-indent: -999em;
 }
